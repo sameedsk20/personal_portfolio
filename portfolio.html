@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameed Saeed Khan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/d4d5a6487f.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <section class="header" id="header">
+        <div class="container">
+            <nav>
+                <img src="images/sklogo.png" class="logo" alt="logo">
+                <ul id="sideMenuBar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#myWorks">My Works</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                    <li><button class="changingColor" onclick="colorChange()">.</button></li>
+                    <!-- <i class="fas fa-times" onclick="closeMenuBar()"></i> -->
+                </ul> 
+                <!-- <i class="fas fa-bars" onclick="openMenuBar()"></i> -->
+            </nav>
+             
+                <div class="header-text">
+                    <h1>Hey there, <br>It's me, <span>Sameed Saeed Khan</span> <br></h1>
+                    <h2>I am a passionate <span id="element"></span></h2><br>
+                </div>
+             
+        </div>
+    </section>
+ 
+<!-- About Section -->
+    <section class="about revealXR" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="images/myimage.jpg" alt="My Image here">
+                </div>
+                <div class="aboutCol2 delayed-content">
+                    <h1 class="subTitle">About Me</h1>
+                    <p>  I am a <span class="specialization">Computer Science</span> student at Dawood UET. My journey began with <span class="specialization">O Levels</span> and <span class="specialization">A-Levels</span>, fueling my passion for technology. <br> 
+                         I thrive in <span class="specialization">web development</span>, using HTML, CSS, and JavaScript to craft seamless and captivating user experiences. My programming skills extend to C, C++, and PHP, allowing me to create efficient software solutions. With MySQL, I manage and analyze data effectively. 
+                    <br> Beyond coding, I excel in <span class="specialization">content writing</span> and <span class="specialization">data entry</span>. My eye for detail and love for numbers also make me a capable accounting enthusiast. 
+                    <br> When not coding, I'm exploring creativity and drawing inspiration from various sources. I'm excited to connect with like-minded individuals to push the boundaries of technology.</p>
+                <div class="tabTitles">
+                    <p class="tabLinks activeLink" onclick="openTab('skills')">Skills</p>
+                    <p class="tabLinks" onclick="openTab('experience')">Experience</p>
+                    <p class="tabLinks" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tabContents activeTab" id="skills">
+                    <ul>
+                        <li><span class="specialization">Web Development</span><br>Crafting Engaging Web Experiences with Code</li>
+                        <li><span class="specialization">Content Crafting Wizardry</span><br>Transforming Ideas into Captivating Narratives</li>
+                        <li><span class="specialization">Data Entry Operator</span><br>Precision in Every Keystroke as being a Proficient Data Entry Operator</li>
+                    </ul>
+                </div>
+                <div class="tabContents" id="experience">
+                    <ul>
+                        <li><span class="specialization">2020 - Current</span><br>Assistant Manager at BB Petroleum</li>
+                        <li><span class="specialization">August 2023</span><br>Remote Internship at LetsGrowMore </li>
+                        <li><span class="specialization">September 2023</span><br>Remote Internship at CodSoft </li>
+                    </ul>
+                </div>
+                <div class="tabContents" id="education">
+                    <ul>
+                        <li><span class="specialization">2020 - Current</span><br>B.S Computer Science from Dawood University of Engineering & Technology</li>
+                        <li><span class="specialization">2018 - 2020</span><br>A-Levels from Hira Foundation School</li>
+                        <li><span class="specialization">2016 - 2018</span><br>O-Levels from Hira Foundation School</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+             
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages">
+        <marquee class="languageMarquee" scrollamount="20">
+            <div class="element">
+                <img src="images/htmlcssjs.jpg">
+                <img src="images/cw1.jpg">
+                <img src="images/reactjs.jpg">
+                <img src="images/de1.jpg">
+                <img src="images/wd1.jpg">
+                <img src="images/cw2.jpg">
+                <img src="images/bootstrap.jpg">
+                <img src="images/c.jpg">
+                <img src="images/cpp.jpg">
+                <img src="images/wd2.jpg">
+                <img src="images/php.jpg">
+                <img src="images/de2.jpg">
+                <img src="images/mysql.jpg">
+            </div>   
+        </marquee>  
+</section>
+
+    <!-- Services Section -->
+    <section class="services reveal" id="services">
+        <div class="container">
+            <h1 class="subTitle">Skills</h1>
+            <div class="servicesList">
+                <div class="service">
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2 style="color: #13d6e4;">Web Development</h2>
+                    <p>
+                        Step into my world of web development, where I blend imagination with code. 
+                        With a mastery of <span class="specialization">HTML</span>, <span class="specialization">CSS</span>, <span class="specialization">JavaScript</span> and <span class="specialization">ReactJS</span> I craft seamless and captivating digital experiences. 
+                        But it doesn't stop there. I delve into the backend realm, utilizing <span class="specialization">PHP</span>, <span class="specialization">MySQL</span>, <span class="specialization">C</span> and <span class="specialization">C++</span> to ensure dynamic functionality. 
+                        Let's collaborate and turn your online aspirations into interactive realities.
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-database"></i>
+                    <h2 style="color: #13d6e4;">Data Entry Operator</h2>
+                    <p>
+                        Welcome to my domain of precision and efficiency as a skilled data entry operator. 
+                        With an unwavering attention to detail, I transform raw information into structured, accurate, and organized data. 
+                        Let's streamline your information together and create a seamless data management process.
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2 style="color: #13d6e4;">Content Writer</h2>
+                    <p>
+                        As a dedicated content writer, I weave ideas into captivating narratives, crafting engaging stories that captivate readers and convey messages effectively. 
+                        Skilled in <span class="specialization">Article Writing</span>, <span class="specialization">Blogs Writing</span>, <span class="specialization">Proofreading</span>. I breathe life into words, painting a vivid picture that resonates with audiences. 
+                        Let's collaborate to bring your vision to life through the power of language.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+
+    <!--- My Works ---> 
+    <section class="myWork revealXR" id="myWorks">
+        <div class="container">
+            <h1 class="subTitle">My Works</h1>
+            <div class="workList">
+                <div class="work">
+                    <img src="images/texttospeech.png">
+                    <div class="layer">
+                        <h3>Text to Speech Converter</h3>
+                        <p>This is an app which would convert your written text into audio.</p>
+                        <a href="projects/TEXT-to-SPEECH CONERTER/index.html"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/skuix.png">
+                    <div class="layer">
+                        <h3>Skuix App</h3>
+                        <p>Dive into the world of interactive learning with Quiz Master, an engaging quiz application that I meticulously crafted using 
+                           HTML, CSS, and JavaScript. 
+                          </p>
+                        <a href="projects/QUIZ APP/index.html"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weatherapp.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>This is an app based on HTML,CSS,JavaScript which provides details about weather of different cities.</p>
+                        <a href="projects/WEATHER APP/index.html"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="myworks.html" class="btn">See More</a>
+             
+        </div>
+        
+            
+        </div>
+    </section>
+   
+    <!--- Contact -->
+    <section class="contact reveal" id="connect">
+        <div class="container">
+            <div class="row">
+                <div class="contactLeft">
+                    <h1 class="subTitle">Connect</h1>
+                    <p><a href="mailto:sameedsaaedkhan20@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>sameedsaaedkhan20@gmail.com</a></p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>+92-333-2056314</p>
+                    <p><a href="https://wa.me/+923352220315"><i class="fa fa-whatsapp"></i>+92-335-2220315</a></p>
+                    <div class="socialIcons">
+                        <a href="https://www.facebook.com/profile.php?id=100006721754727"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/sameedsk20"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/sameedsk20/?next=%2F"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sameed-saeed-khan-2156461b4/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/sameedsk20"><i class="fab fa-github"></i></a>    
+                    </div>
+                    <a href="images/myResume.pdf" print target="_blank" class="resumeButton">My Resume</a>
+                </div>
+                <div class="contactRight">
+                    <h2>Your Feedback matters!</h2>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Full Name" placeholder="Enter your name..." required autocomplete="off">
+                        <input type="text" name="Email" placeholder="Enter your email..." required autocapitalize="off">
+                        <textarea name="Message" rows="6" placeholder="Enter your message..."></textarea>
+                        <button type="submit" class="formButton">Submit</button>
+                    </form>
+                    <span id="alert"></span>
+                </div>
+            </div>
+             
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © <img src="images/skcopyright.png"> Developers.</p>
+       </div> 
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
